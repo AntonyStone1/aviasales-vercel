@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f7fa;
+}
+label {
+  cursor: pointer;
+}
+label:hover {
+  background-color: #f1fcff;
+}
+input[type='radio']:checked + label {
+  color: #fff;
+  background-color: #2196f3;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+a:hover {
+  background-color: #f1fcff;
+}
